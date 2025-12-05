@@ -1,11 +1,7 @@
 clear; clc; close all; 
-%% Setup VLFeat toolbox.
 %----------------------
 addpath('modelspecific'); 
 addpath('MBS');   % for saliency detection
-cd vlfeat-0.9.21/toolbox;
-feval('vl_setup');
-cd ../..;
 
 imgpath = 'Imgs\';
 
